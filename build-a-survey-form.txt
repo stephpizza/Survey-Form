@@ -1,0 +1,108 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Manatee Survey</title>
+ <meta name="viewport" content="width=device-width, initial-  	scale=1.0">
+ <meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+<h1 id="title">Manatee Survey</h1>
+  <p id="description">
+    Please give us some feedback about what you learned today!
+    </p>
+    <form id="survey-form">
+      <fieldset>
+     <label id="name-label">Name <input id="name" type="text" name="name" required placeholder="Enter Your Name"/></label>
+
+      <label id="email-label">Email <input id="email" type="email" name="email" required placeholder="Enter Your Email"/></label>
+
+      <label id="number-label">Age (Optional) <input id="number" type="number" name="number" min="13" max="110" placeholder="Age"></label>
+
+       </fieldset>
+
+<fieldset>
+      <label for="dropdown">How informative did you find our site?
+        <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Very informative and interesting!</option>
+            <option value="2">I learned something new.</option>
+            <option value="3">I already knew most of this information.</option>
+            <option value="4">I found it to be boring.</option>
+          </select>
+        </label>
+</fieldset>
+
+<fieldset>
+  <legend>Would you like to be added to our e-mail list?</legend>
+  <label><input id="yes" type="radio" name="email-list" value="yes" checked> Yes</label>
+<label><input id="no" type="radio" name="email-list" value="no"> No</label>
+     </fieldset>
+
+     <fieldset>
+<legend>What would you like to see more of on our site?</legend>
+           
+<label for="stories"><input id="stories" type="checkbox" name="options" value="stories">Stories about manatees.</label>
+ 
+<label for="facts"><input id="facts" type="checkbox" name="options" value="facts"> 
+Fun facts about manatees.</label>
+
+  <label for="pictures"><input id="pictures" type="checkbox" name="options" value="pictures"> 
+Pictures of manatees.</label>
+
+  <label for="information"><input id="information" type="checkbox" name="options" value="information"> 
+Information about how to help Manatees.</label>
+
+</fieldset>
+
+<fieldset>
+ <label for="comments">Any additional suggestions:
+          <textarea id="bio" name="bio" rows="2" cols="30" placeholder="The website could be improved by..."></textarea>
+        </label>
+  </fieldset>
+      <button id="submit" type="submit">Submit</button>
+      </form>
+  </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+body {
+  background-color: #4a5f9c;
+  font-family: Verdana;
+  
+}
+
+h1, p {
+  text-align: center;
+}
+
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+textarea, input {
+  background-color: #3d4e7f;
+}
+
+form {
+  width: 80vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+
+
+** end of undefined **
+
